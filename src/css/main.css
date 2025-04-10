@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&display=swap");
+
+@import url("reset.css");
+@import url("nav.css");
+@import url("buttons.css");
+@import url("heading-text.css");
+@import url("footer.css");
+@import url("layout.css");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

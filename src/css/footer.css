@@ -1,0 +1,41 @@
+.site-footer {
+  background-color: #58cc04;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #d7ffb8;
+}
+
+.footer-nav {
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d7ffb8;
+  font-weight: 500;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #d7ffb8;
+}

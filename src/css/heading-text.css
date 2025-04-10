@@ -1,0 +1,43 @@
+h1,
+h2 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 48px;
+  color: #58cc04;
+}
+.h1-hero {
+  color: #4b4b4b;
+  text-align: center;
+  width: 480px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+p {
+  color: #777777;
+}
+@media (max-width: 1080px) {
+  h2 {
+    font-size: 36px;
+  }
+  .h1-hero {
+    width: 100%;
+  }
+  .hero-heading-text {
+    padding: 0 24px;
+  }
+  .header-text {
+    align-items: center;
+    gap: 16px;
+  }
+  .header-text h2,
+  .header-text p {
+    text-align: center;
+  }
+}

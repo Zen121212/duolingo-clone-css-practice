@@ -1,0 +1,92 @@
+header {
+  padding-top: 70px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 80px;
+  justify-content: end;
+  margin: 0 auto;
+  padding: 48px 0;
+  width: 988px;
+}
+.hero .image {
+  max-width: 428px;
+}
+.hero .hero-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 330px;
+  width: 100%;
+  margin: 48px auto auto;
+}
+
+.image-text-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 101px;
+  margin: 0 auto 0 auto;
+  width: 988px;
+}
+.image-text-row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+main {
+  padding: 80px 0 0 0;
+}
+.get-started > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.get-started h1 {
+  text-align: center;
+}
+.get-started .header-text {
+  width: 988px;
+}
+main > section + section {
+  padding-top: 36px;
+}
+@media (max-width: 1080px) {
+  header {
+    height: auto;
+  }
+  .hero {
+    flex-direction: column;
+    width: 100%;
+    padding: 36px 0;
+  }
+
+  .hero .hero-buttons {
+    max-width: 100%;
+  }
+  main {
+    padding: 36px 24px;
+  }
+  .image-text-row + .image-text-row {
+    margin: 24px auto 0 auto;
+  }
+  .image-text-row,
+  .image-text-row:nth-child(even) {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 24px;
+  }
+  .get-started .header-text {
+    width: 100%;
+  }
+  .get-started svg {
+    width: calc(100% + 48px);
+    left: 0;
+    margin-bottom: -44px;
+  }
+}
