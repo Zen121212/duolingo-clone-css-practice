@@ -36,6 +36,9 @@ header {
   margin: 0 auto 0 auto;
   width: 988px;
 }
+.image-text-wrapper .image-text-row > div {
+  flex: 1;
+}
 .image-text-row:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -54,7 +57,25 @@ main {
   width: 988px;
 }
 main > section + section {
-  padding-top: 36px;
+  margin-top: 36px;
+}
+.trial-section {
+  display: flex;
+  background-color: #100f3e;
+  height: 100vh;
+}
+.trial-section .image-text-row {
+  padding: 24px 24px;
+}
+.trial-section .header-text {
+  flex: 2;
+}
+.trial-section .image {
+  flex: 1;
+}
+img {
+  max-width: 480px;
+  width: 100%;
 }
 @media (max-width: 1080px) {
   header {
@@ -86,7 +107,10 @@ main > section + section {
   }
   .get-started svg {
     width: calc(100% + 48px);
-    left: 0;
     margin-bottom: -44px;
+  }
+  .trial-section {
+    width: calc(100% + 48px);
+    margin-left: -24px;
   }
 }

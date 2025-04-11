@@ -12,6 +12,8 @@
   box-shadow: rgb(88, 167, 0) 0px 4px 0px 0px;
   transition: background-color 0.3s ease;
   font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .green-button:hover {
   background-color: #61e004;
@@ -36,7 +38,9 @@
 .white-button:hover {
   background-color: #e6e6e6;
 }
-
+.trial-section .white-button {
+  color: #000000;
+}
 .image-text-row .white-button {
   max-width: 330px;
   width: 100%;
